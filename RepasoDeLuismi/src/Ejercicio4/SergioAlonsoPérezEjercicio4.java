@@ -1,0 +1,36 @@
+package Ejercicio4;
+/*  Scanner scanner = new Scanner(System.in);
+        System.out.println("Por favor, introduce un número:");
+        int numero = scanner.nextInt();
+        System.out.print("La sucesión de Ulam para " + numero + " es: ");
+        while (numero != 1) {
+            System.out.print(numero + ", ");
+            if (numero % 2 == 0) {
+                numero = numero / 2;
+            } else {
+                numero = numero * 3 + 1;
+            }
+        }
+        System.out.println("1");
+    }
+}*/
+import java.util.Scanner;
+
+public class SergioAlonsoPérezEjercicio4 {
+
+	public static void main(String[] args) {
+		  Scanner leer = new Scanner(System.in);
+	        System.out.println("Por favor, introduce un número:");
+	        int numero = leer.nextInt();
+	        System.out.print("La sucesión de Ulam para " + numero + " es: ");
+	        while (numero != 1) {
+	            System.out.print(numero + ", ");
+	            if (numero % 2 == 0) {
+	                numero = numero / 2;
+	            } else {
+	                numero = numero * 3 + 1;
+	            }
+	        }
+	        System.out.println("1");
+	    }
+	}
