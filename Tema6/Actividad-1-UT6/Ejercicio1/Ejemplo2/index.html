@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML DOM Events</title>
+</head>
+
+<body>
+    <button>Saludar</button>
+    <!--en este ejemplo esta puesto el script directamente en el archivo.html, mientras que en el 
+    otro ejemplo esta hecho en un archivo.js aparte -->
+    <script>
+        const button = document.querySelector("button");/*selecciona el primer elemento <button> que aparece en el 
+documento HTML y lo asigna a la constante button. */ 
+        button.onclick = function () { /*Se asigna una función al evento onclick del botón, cada vez que se de click al boton pasara lo que sigue a continuacion de las llaves.*/
+            alert("Hello!"); /*muestra el mensaje: "Hello!" al pulsar el boton*/ 
+        }
+    </script>
+
+</body>
+
+</html>
